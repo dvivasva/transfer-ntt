@@ -35,10 +35,8 @@ public class TransferController {
     }
 
     @GetMapping
-    public  String getDate(){
-        LocalDate todayDate = LocalDate.now();
-        LocalDateTime localDateTime=LocalDateTime.now();
-        return "range date:" + localDateTime.withDayOfMonth(1) + " between " + LocalDateTime.now();
+    public  String myBank(){
+            return "Hello this is spring with azure :)";
     }
 
 }
